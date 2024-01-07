@@ -1,70 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Home</title>
-    <url>/2024/01/08/Home/</url>
-    <content><![CDATA[<p>[[</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>only One</title>
-    <url>/2024/01/07/%E5%A5%BD%E6%B6%88%E6%81%AF/</url>
-    <content><![CDATA[<p><a href="https://mp.weixin.qq.com/s?__biz=MzU0ODg5OTY0Mw==&mid=2247483778&idx=1&sn=583d13a287b6de78ec5862c6950b1f0a&chksm=fbb95fd6ccced6c0754db7821ed0df7f0f9c5ea03b8ba19edee9620a62737921f713df4740ee&token=1154134814&lang=zh_CN#rd">微信公众号</a></p>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言^"></a>前言^</h1><p>之前我妈问过我好几遍，你的工作内容是什么？每次讲完她都好像似懂非懂的样子。想起之前看过本书叫《图形思考》，其中的交换图正好是用来厘清事物间关系的。这是我写这篇文章的动机。</p>
-<h1 id="1-交换图介绍"><a href="#1-交换图介绍" class="headerlink" title="1 交换图介绍"></a>1 交换图介绍</h1><p><img src="https://mmbiz.qpic.cn/mmbiz_png/kaX2ea8yiapDicZYM9wlx5rBwSIyIVtlZGGw5ybpf404luJia6Y26CtJ6QPibvtKR65oCibf4eGSAZCeNFibu4JyJuog/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1"></p>
-<ul>
-<li><strong>画出实体</strong>：就是找出案例中的利益方</li>
-<li><strong>厘清各方需求</strong>：分析各方的需求</li>
-<li><strong>画出关系</strong>：完成作图</li>
-</ul>
-<h1 id="2-交换图案例：我的专业——推荐系统"><a href="#2-交换图案例：我的专业——推荐系统" class="headerlink" title="2 交换图案例：我的专业——推荐系统"></a>2 交换图案例：我的专业——推荐系统</h1><p>![[交换图：推荐系统.excalidraw|100%]]</p>
-<ul>
-<li><strong>企业的痛点——长尾效应</strong>：在原来仅靠搜索驱动电商公司，它其中80%的销量由20%的热门商品贡献，这意味着还有80%是鲜为人知的。</li>
-<li><strong>用户的痛点——信息过载</strong>：比如日用百货中的牙膏常见的品牌就有几十种，每种品牌下又有十几个不同功用的。原本仅靠分类与搜索的电商网站就极其耗费用户的时间与耐心。</li>
-<li><strong>用户向企业提供信息</strong>：用户在浏览网站时有对商品的收藏、评价等行为信息，这些信息便是推荐系统的的价值锚点。</li>
-<li><strong>企业向用户提供服务</strong>：企业通过分析这些信息，了解用户偏好，以向用户提供个性化的推荐服务。</li>
-</ul>
-<h1 id="3-交换图案例：微信公众号"><a href="#3-交换图案例：微信公众号" class="headerlink" title="3 交换图案例：微信公众号"></a>3 交换图案例：微信公众号</h1><p>![[交换图：微信公众号.excalidraw|100%]]</p>
-<ul>
-<li>用熟悉的微信公众号的案例，练习交换图。</li>
-</ul>
-<h1 id="4-结语"><a href="#4-结语" class="headerlink" title="4 结语"></a>4 结语</h1><p>这是我在公众号发的第一篇文章，打算把《图形思考》做成一个系列，敬请期待。</p>
-<h1 id="5-References"><a href="#5-References" class="headerlink" title="5 References"></a>5 References</h1><ul>
-<li>[[交换图]]</li>
-</ul>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Home</title>
+      <link href="/2024/01/08/Home/"/>
+      <url>/2024/01/08/Home/</url>
+      
+        <content type="html"><![CDATA[<p>[[</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>only One</title>
+      <link href="/2024/01/07/%E5%A5%BD%E6%B6%88%E6%81%AF/"/>
+      <url>/2024/01/07/%E5%A5%BD%E6%B6%88%E6%81%AF/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s?__biz=MzU0ODg5OTY0Mw==&mid=2247483778&idx=1&sn=583d13a287b6de78ec5862c6950b1f0a&chksm=fbb95fd6ccced6c0754db7821ed0df7f0f9c5ea03b8ba19edee9620a62737921f713df4740ee&token=1154134814&lang=zh_CN#rd">微信公众号</a></p><h1 id="前言"><a href="#前言" class="headerlink" title="前言^"></a>前言^</h1><p>之前我妈问过我好几遍，你的工作内容是什么？每次讲完她都好像似懂非懂的样子。想起之前看过本书叫《图形思考》，其中的交换图正好是用来厘清事物间关系的。这是我写这篇文章的动机。</p><h1 id="1-交换图介绍"><a href="#1-交换图介绍" class="headerlink" title="1 交换图介绍"></a>1 交换图介绍</h1><p><img src="https://mmbiz.qpic.cn/mmbiz_png/kaX2ea8yiapDicZYM9wlx5rBwSIyIVtlZGGw5ybpf404luJia6Y26CtJ6QPibvtKR65oCibf4eGSAZCeNFibu4JyJuog/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1"></p><ul><li><strong>画出实体</strong>：就是找出案例中的利益方</li><li><strong>厘清各方需求</strong>：分析各方的需求</li><li><strong>画出关系</strong>：完成作图</li></ul><h1 id="2-交换图案例：我的专业——推荐系统"><a href="#2-交换图案例：我的专业——推荐系统" class="headerlink" title="2 交换图案例：我的专业——推荐系统"></a>2 交换图案例：我的专业——推荐系统</h1><p>![[交换图：推荐系统.excalidraw|100%]]</p><ul><li><strong>企业的痛点——长尾效应</strong>：在原来仅靠搜索驱动电商公司，它其中80%的销量由20%的热门商品贡献，这意味着还有80%是鲜为人知的。</li><li><strong>用户的痛点——信息过载</strong>：比如日用百货中的牙膏常见的品牌就有几十种，每种品牌下又有十几个不同功用的。原本仅靠分类与搜索的电商网站就极其耗费用户的时间与耐心。</li><li><strong>用户向企业提供信息</strong>：用户在浏览网站时有对商品的收藏、评价等行为信息，这些信息便是推荐系统的的价值锚点。</li><li><strong>企业向用户提供服务</strong>：企业通过分析这些信息，了解用户偏好，以向用户提供个性化的推荐服务。</li></ul><h1 id="3-交换图案例：微信公众号"><a href="#3-交换图案例：微信公众号" class="headerlink" title="3 交换图案例：微信公众号"></a>3 交换图案例：微信公众号</h1><p>![[交换图：微信公众号.excalidraw|100%]]</p><ul><li>用熟悉的微信公众号的案例，练习交换图。</li></ul><h1 id="4-结语"><a href="#4-结语" class="headerlink" title="4 结语"></a>4 结语</h1><p>这是我在公众号发的第一篇文章，打算把《图形思考》做成一个系列，敬请期待。</p><h1 id="5-References"><a href="#5-References" class="headerlink" title="5 References"></a>5 References</h1><ul><li>[[交换图]]</li></ul>]]></content>
+      
+      
       <categories>
-        <category>test</category>
+          
+          <category> test </category>
+          
       </categories>
-      <tags>
-        <tag>安全感</tag>
-        <tag>比较图</tag>
-        <tag>编程语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Welcome Ooheroism&#39;s Blog</title>
-    <url>/2024/01/07/Wolcome/</url>
-    <content><![CDATA[<p>上一篇我们谈了深挖图的第一个作用，即深究原因，最后也提到了原因论的不足之处，这一篇我们就具体看看目的论好在哪里？它是如何拓宽我们解决问题的思路的？<br>写这一篇的动机，正如标题所提到的，这个观念在上个月真实的帮到了我的朋友。所以我要特别单独拿出来说说，希望对你也有所启发。</p>
-<h1 id="1-拓宽解决问题的思路"><a href="#1-拓宽解决问题的思路" class="headerlink" title="1 拓宽解决问题的思路"></a>1 拓宽解决问题的思路</h1><p>深挖图的第一个作用——深究案例的本质原因，在问“为什么”的过程，帮我们更<strong>聚焦</strong>到本质原因，问题一旦聚焦解决方案就容易产生。<br>但这样也有个副作用，聚焦换个说法就是到了死胡同，这时候我们需要更<strong>灵活</strong>的思考模式，即深挖图的第二个作用——拓宽解决问题的思路，就是不断追问“如果这仅仅手段，那什么才是真正的目的”的过程。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#/opt/homebrew/Caskroom/miniforge/base/envs/py39/bin/python</span></span><br><span class="line"><span class="keyword">import</span> seaborn <span class="keyword">as</span> sns</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">sns.set_style(<span class="string">&quot;darkgrid&quot;</span>)</span><br><span class="line">iris = sns.load_dataset(<span class="string">&#x27;iris&#x27;</span>)</span><br><span class="line">sns.FacetGrid(iris, hue =<span class="string">&quot;species&quot;</span>, height = <span class="number">5</span>).<span class="built_in">map</span>(plt.scatter, <span class="string">&#x27;sepal_length&#x27;</span>, <span class="string">&#x27;petal_length&#x27;</span>).add_legend()</span><br><span class="line"></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-<h1 id="2-案例：找锤子"><a href="#2-案例：找锤子" class="headerlink" title="2 案例：找锤子"></a>2 案例：找锤子</h1><p>![[深挖图：找锤子.excalidraw|100%]]</p>
-<p>“锤子在哪里？”如果我们觉得这是问题的本质原因，那么就会陷入苦恼，原地打转，锤子在哪里？锤子在哪里……<br>“如果这仅仅是手段，那什么才是真正的目的？”这样你每追问一次都会多产生一个解决问题的思路：</p>
-<ul>
-<li>能敲钉子的东西在哪里？这时砖块也是解决方案。</li>
-<li>能固定画的东西在哪里？这时胶带也是解决方案。</li>
-<li>如何能让这面墙别显得空？盆栽也成了解决方案。<br>……</li>
-</ul>
-<h1 id="3-案例：亲密关系中的吵架"><a href="#3-案例：亲密关系中的吵架" class="headerlink" title="3 案例：亲密关系中的吵架"></a>3 案例：亲密关系中的吵架</h1><p>有一次周末我到朋友家，看他心情有些低落，问问发生什么了？一聊原来是跟女朋友吵架了，并且都互相不说话了，陷入了冷战，并且当天还是女朋友的生日，他原本打算要坐高铁回去陪她过生日的。<br>好了，本碎碎念大师来了。那一定得拔刀相助呀，开始：“吵架本身没什么问题？因为这在亲密关系中很难免，重要的是，每次吵完后得变得更了解彼此，否则真就白吵了，还伤身”。<br>听本碎碎念说完，朋友说，“因为彩礼吵的，她要30万，虽没直接要，但对方旁敲侧击的，他感觉到了”。“你说要18万我也觉得差不多，但30万真过了”。<br>注意，本碎碎念要点题了。“哎呀，那不是18万或30万的事，如果30万仅仅是手段，那她在意的是什么？可能是对她的重视，或者安全感等等。如果18万仅仅是手段，那你真正在意的是什么？可能是对父母的体谅，因为要是用父母的钱你会于心不忍。如果这仅仅是手段，那真正在意的是什么？这样把思路打开，你们就会发现根本不是彩礼的事，并且因为这个过程也会更了解彼此”。<br>好了，听本碎碎念这一通念叨，朋友立马买了当天下午的高铁票为女友庆生去了。贴一个后续。</p>
-<h1 id="4-结语"><a href="#4-结语" class="headerlink" title="4 结语"></a>4 结语</h1><p>上一篇的题目是“要持续内容创作的原因”，因为上一篇的主题是原因而不是目的，所以这个创作动机显得有些纯自嗨就完了。这篇的主题是目的，那也顺带说下我更重要的创作动机，就是通过我的碎碎念，可以给更多的朋友启发，要是真的帮到你们，那我会很开心。今天是2023的最后一天，会有很多人晒年终总结，我想说的是，不要本那些成功学搞得焦虑，因为正如今天的主题，你才是目的。<br>预告一下，下一篇我们谈谈最常见的流程图，也正因为常见，我们往往忽视了它另外的很特别的功用（先卖个关子），我们下一篇见。</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 安全感 </tag>
+            
+            <tag> 比较图 </tag>
+            
+            <tag> 编程语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Welcome Ooheroism&#39;s Blog</title>
+      <link href="/2024/01/07/Wolcome/"/>
+      <url>/2024/01/07/Wolcome/</url>
+      
+        <content type="html"><![CDATA[<p>上一篇我们谈了深挖图的第一个作用，即深究原因，最后也提到了原因论的不足之处，这一篇我们就具体看看目的论好在哪里？它是如何拓宽我们解决问题的思路的？<br>写这一篇的动机，正如标题所提到的，这个观念在上个月真实的帮到了我的朋友。所以我要特别单独拿出来说说，希望对你也有所启发。</p><h1 id="1-拓宽解决问题的思路"><a href="#1-拓宽解决问题的思路" class="headerlink" title="1 拓宽解决问题的思路"></a>1 拓宽解决问题的思路</h1><p>深挖图的第一个作用——深究案例的本质原因，在问“为什么”的过程，帮我们更<strong>聚焦</strong>到本质原因，问题一旦聚焦解决方案就容易产生。<br>但这样也有个副作用，聚焦换个说法就是到了死胡同，这时候我们需要更<strong>灵活</strong>的思考模式，即深挖图的第二个作用——拓宽解决问题的思路，就是不断追问“如果这仅仅手段，那什么才是真正的目的”的过程。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#/opt/homebrew/Caskroom/miniforge/base/envs/py39/bin/python</span></span><br><span class="line"><span class="keyword">import</span> seaborn <span class="keyword">as</span> sns</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">sns.set_style(<span class="string">&quot;darkgrid&quot;</span>)</span><br><span class="line">iris = sns.load_dataset(<span class="string">&#x27;iris&#x27;</span>)</span><br><span class="line">sns.FacetGrid(iris, hue =<span class="string">&quot;species&quot;</span>, height = <span class="number">5</span>).<span class="built_in">map</span>(plt.scatter, <span class="string">&#x27;sepal_length&#x27;</span>, <span class="string">&#x27;petal_length&#x27;</span>).add_legend()</span><br><span class="line"></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure><h1 id="2-案例：找锤子"><a href="#2-案例：找锤子" class="headerlink" title="2 案例：找锤子"></a>2 案例：找锤子</h1><p>![[深挖图：找锤子.excalidraw|100%]]</p><p>“锤子在哪里？”如果我们觉得这是问题的本质原因，那么就会陷入苦恼，原地打转，锤子在哪里？锤子在哪里……<br>“如果这仅仅是手段，那什么才是真正的目的？”这样你每追问一次都会多产生一个解决问题的思路：</p><ul><li>能敲钉子的东西在哪里？这时砖块也是解决方案。</li><li>能固定画的东西在哪里？这时胶带也是解决方案。</li><li>如何能让这面墙别显得空？盆栽也成了解决方案。<br>……</li></ul><h1 id="3-案例：亲密关系中的吵架"><a href="#3-案例：亲密关系中的吵架" class="headerlink" title="3 案例：亲密关系中的吵架"></a>3 案例：亲密关系中的吵架</h1><p>有一次周末我到朋友家，看他心情有些低落，问问发生什么了？一聊原来是跟女朋友吵架了，并且都互相不说话了，陷入了冷战，并且当天还是女朋友的生日，他原本打算要坐高铁回去陪她过生日的。<br>好了，本碎碎念大师来了。那一定得拔刀相助呀，开始：“吵架本身没什么问题？因为这在亲密关系中很难免，重要的是，每次吵完后得变得更了解彼此，否则真就白吵了，还伤身”。<br>听本碎碎念说完，朋友说，“因为彩礼吵的，她要30万，虽没直接要，但对方旁敲侧击的，他感觉到了”。“你说要18万我也觉得差不多，但30万真过了”。<br>注意，本碎碎念要点题了。“哎呀，那不是18万或30万的事，如果30万仅仅是手段，那她在意的是什么？可能是对她的重视，或者安全感等等。如果18万仅仅是手段，那你真正在意的是什么？可能是对父母的体谅，因为要是用父母的钱你会于心不忍。如果这仅仅是手段，那真正在意的是什么？这样把思路打开，你们就会发现根本不是彩礼的事，并且因为这个过程也会更了解彼此”。<br>好了，听本碎碎念这一通念叨，朋友立马买了当天下午的高铁票为女友庆生去了。贴一个后续。</p><h1 id="4-结语"><a href="#4-结语" class="headerlink" title="4 结语"></a>4 结语</h1><p>上一篇的题目是“要持续内容创作的原因”，因为上一篇的主题是原因而不是目的，所以这个创作动机显得有些纯自嗨就完了。这篇的主题是目的，那也顺带说下我更重要的创作动机，就是通过我的碎碎念，可以给更多的朋友启发，要是真的帮到你们，那我会很开心。今天是2023的最后一天，会有很多人晒年终总结，我想说的是，不要本那些成功学搞得焦虑，因为正如今天的主题，你才是目的。<br>预告一下，下一篇我们谈谈最常见的流程图，也正因为常见，我们往往忽视了它另外的很特别的功用（先卖个关子），我们下一篇见。</p>]]></content>
+      
+      
       <categories>
-        <category>test</category>
+          
+          <category> test </category>
+          
       </categories>
-      <tags>
-        <tag>安全感</tag>
-        <tag>比较图</tag>
-        <tag>辩护</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 安全感 </tag>
+            
+            <tag> 比较图 </tag>
+            
+            <tag> 辩护 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
