@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>only 4</title>
-    <url>/2024/01/08/test%203/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言^"></a>前言^</h1><p>之前我妈问过我好几遍，你的工作内容是什么？每次讲完她都好像似懂非懂的样子。想起之前看过本书叫《图形思考》，其中的交换图正好是用来厘清事物间关系的。这是我写这篇文章的动机。</p>
-<h1 id="1-交换图介绍"><a href="#1-交换图介绍" class="headerlink" title="1 交换图介绍"></a>1 交换图介绍</h1><img src="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/比较图.png" width="50%" height="50%" style="margin: 0 auto;"/>
-
-<ul>
-<li><strong>画出实体</strong>：就是找出案例中的利益方</li>
-<li><strong>厘清各方需求</strong>：分析各方的需求</li>
-<li><strong>画出关系</strong>：完成作图</li>
-</ul>
-<h1 id="2-交换图案例：我的专业——推荐系统"><a href="#2-交换图案例：我的专业——推荐系统" class="headerlink" title="2 交换图案例：我的专业——推荐系统"></a>2 交换图案例：我的专业——推荐系统</h1><p>![[交换图：推荐系统.excalidraw|100%]]</p>
-<ul>
-<li><strong>企业的痛点——长尾效应</strong>：在原来仅靠搜索驱动电商公司，它其中80%的销量由20%的热门商品贡献，这意味着还有80%是鲜为人知的。</li>
-<li><strong>用户的痛点——信息过载</strong>：比如日用百货中的牙膏常见的品牌就有几十种，每种品牌下又有十几个不同功用的。原本仅靠分类与搜索的电商网站就极其耗费用户的时间与耐心。</li>
-<li><strong>用户向企业提供信息</strong>：用户在浏览网站时有对商品的收藏、评价等行为信息，这些信息便是推荐系统的的价值锚点。</li>
-<li><strong>企业向用户提供服务</strong>：企业通过分析这些信息，了解用户偏好，以向用户提供个性化的推荐服务。</li>
-</ul>
-<h1 id="3-交换图案例：微信公众号"><a href="#3-交换图案例：微信公众号" class="headerlink" title="3 交换图案例：微信公众号"></a>3 交换图案例：微信公众号</h1><p>![[交换图：微信公众号.excalidraw|100%]]</p>
-<ul>
-<li>用熟悉的微信公众号的案例，练习交换图。</li>
-</ul>
-<h1 id="4-结语"><a href="#4-结语" class="headerlink" title="4 结语"></a>4 结语</h1><p>这是我在公众号发的第一篇文章，打算把《图形思考》做成一个系列，敬请期待。</p>
-<h1 id="5-References"><a href="#5-References" class="headerlink" title="5 References"></a>5 References</h1><ul>
-<li>[[交换图]]</li>
-</ul>
-]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
-      <tags>
-        <tag>安全感</tag>
-        <tag>比较图</tag>
-        <tag>编程语言</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>only 1</title>
     <url>/2024/01/08/test%201/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言^"></a>前言^</h1><p>之前我妈问过我好几遍，你的工作内容是什么？每次讲完她都好像似懂非懂的样子。想起之前看过本书叫《图形思考》，其中的交换图正好是用来厘清事物间关系的。这是我写这篇文章的动机。</p>
@@ -75,6 +39,42 @@
   <entry>
     <title>only 2</title>
     <url>/2024/01/08/test%202/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言^"></a>前言^</h1><p>之前我妈问过我好几遍，你的工作内容是什么？每次讲完她都好像似懂非懂的样子。想起之前看过本书叫《图形思考》，其中的交换图正好是用来厘清事物间关系的。这是我写这篇文章的动机。</p>
+<h1 id="1-交换图介绍"><a href="#1-交换图介绍" class="headerlink" title="1 交换图介绍"></a>1 交换图介绍</h1><img src="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/比较图.png" width="50%" height="50%" style="margin: 0 auto;"/>
+
+<ul>
+<li><strong>画出实体</strong>：就是找出案例中的利益方</li>
+<li><strong>厘清各方需求</strong>：分析各方的需求</li>
+<li><strong>画出关系</strong>：完成作图</li>
+</ul>
+<h1 id="2-交换图案例：我的专业——推荐系统"><a href="#2-交换图案例：我的专业——推荐系统" class="headerlink" title="2 交换图案例：我的专业——推荐系统"></a>2 交换图案例：我的专业——推荐系统</h1><p>![[交换图：推荐系统.excalidraw|100%]]</p>
+<ul>
+<li><strong>企业的痛点——长尾效应</strong>：在原来仅靠搜索驱动电商公司，它其中80%的销量由20%的热门商品贡献，这意味着还有80%是鲜为人知的。</li>
+<li><strong>用户的痛点——信息过载</strong>：比如日用百货中的牙膏常见的品牌就有几十种，每种品牌下又有十几个不同功用的。原本仅靠分类与搜索的电商网站就极其耗费用户的时间与耐心。</li>
+<li><strong>用户向企业提供信息</strong>：用户在浏览网站时有对商品的收藏、评价等行为信息，这些信息便是推荐系统的的价值锚点。</li>
+<li><strong>企业向用户提供服务</strong>：企业通过分析这些信息，了解用户偏好，以向用户提供个性化的推荐服务。</li>
+</ul>
+<h1 id="3-交换图案例：微信公众号"><a href="#3-交换图案例：微信公众号" class="headerlink" title="3 交换图案例：微信公众号"></a>3 交换图案例：微信公众号</h1><p>![[交换图：微信公众号.excalidraw|100%]]</p>
+<ul>
+<li>用熟悉的微信公众号的案例，练习交换图。</li>
+</ul>
+<h1 id="4-结语"><a href="#4-结语" class="headerlink" title="4 结语"></a>4 结语</h1><p>这是我在公众号发的第一篇文章，打算把《图形思考》做成一个系列，敬请期待。</p>
+<h1 id="5-References"><a href="#5-References" class="headerlink" title="5 References"></a>5 References</h1><ul>
+<li>[[交换图]]</li>
+</ul>
+]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>安全感</tag>
+        <tag>比较图</tag>
+        <tag>编程语言</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>only 4</title>
+    <url>/2024/01/08/test%203/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言^"></a>前言^</h1><p>之前我妈问过我好几遍，你的工作内容是什么？每次讲完她都好像似懂非懂的样子。想起之前看过本书叫《图形思考》，其中的交换图正好是用来厘清事物间关系的。这是我写这篇文章的动机。</p>
 <h1 id="1-交换图介绍"><a href="#1-交换图介绍" class="headerlink" title="1 交换图介绍"></a>1 交换图介绍</h1><img src="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/比较图.png" width="50%" height="50%" style="margin: 0 auto;"/>
 
