@@ -20,23 +20,26 @@
     var CONFIG = {"hostname":"ooheroism.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="1 写这篇文章前，我的心理活动记得，第一次在朋友圈宣发公号，阅读量40+。本以为我的公号终于开始起步了，结果第二天就仅有18的阅读量。这还不算什么，更要命的是我发现，我朋友圈宣发文案的点赞量，竟然比我的文章还要多。哈哈哈。嗯，危险。朋友们，你们说说，该怎么办？ 我想要不就硬着头皮做呗，不就刚开始下降吗？有起有落很正常的。但稍作理智就觉得，不不不，那不行。据我以往的经验，硬着头皮也可能只会让你头皮发">
+  <meta name="description" content="前言^ 前些天在另一个平台看有人发的动态说，“在北京的身边的朋友都陆续离开了，而我为什么选择继续留在这里”？他的理由是：“假如我离开北京了，我的孩子也还会再来”！我略微感到了一丝悲壮的气氛。我在想呀，“假如是我，我会怎么选择？理由又是什么”？这是我写这篇文章的动机。 昨天我发了《图形思考系列》的第一篇——交换图，今天的主题是比较图，我会先介绍下比较图的使用，然后用两个小案例练习一下比较图的使用，最">
 <meta property="og:type" content="article">
-<meta property="og:title" content="流程图：做烂一个公众号的秘诀是什么？">
-<meta property="og:url" content="https://ooheroism.github.io/2024/01/04/%E5%9B%BE%E5%BD%A2%E6%80%9D%E8%80%83/%E6%B5%81%E7%A8%8B%E5%9B%BE/index.html">
+<meta property="og:title" content="比较图：在北京，身边的朋友都陆续离开了，而我为什么选择继续留在这里？">
+<meta property="og:url" content="https://ooheroism.github.io/2023/12/28/%E5%9B%BE%E5%BD%A2%E6%80%9D%E8%80%83/%E6%AF%94%E8%BE%83%E5%9B%BE/index.html">
 <meta property="og:site_name" content="Ooheroism">
-<meta property="og:description" content="1 写这篇文章前，我的心理活动记得，第一次在朋友圈宣发公号，阅读量40+。本以为我的公号终于开始起步了，结果第二天就仅有18的阅读量。这还不算什么，更要命的是我发现，我朋友圈宣发文案的点赞量，竟然比我的文章还要多。哈哈哈。嗯，危险。朋友们，你们说说，该怎么办？ 我想要不就硬着头皮做呗，不就刚开始下降吗？有起有落很正常的。但稍作理智就觉得，不不不，那不行。据我以往的经验，硬着头皮也可能只会让你头皮发">
+<meta property="og:description" content="前言^ 前些天在另一个平台看有人发的动态说，“在北京的身边的朋友都陆续离开了，而我为什么选择继续留在这里”？他的理由是：“假如我离开北京了，我的孩子也还会再来”！我略微感到了一丝悲壮的气氛。我在想呀，“假如是我，我会怎么选择？理由又是什么”？这是我写这篇文章的动机。 昨天我发了《图形思考系列》的第一篇——交换图，今天的主题是比较图，我会先介绍下比较图的使用，然后用两个小案例练习一下比较图的使用，最">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/%E8%99%9A%E5%81%87%E7%9A%84%E6%B5%81%E7%A8%8B%E5%9B%BE.png">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/%E7%9C%9F%E5%AE%9E%E7%9A%84%E6%B5%81%E7%A8%8B%E5%9B%BE.png">
-<meta property="article:published_time" content="2024-01-03T16:56:18.000Z">
-<meta property="article:modified_time" content="2024-01-09T17:24:13.700Z">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/%E6%AF%94%E8%BE%83%E5%9B%BE.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/%E6%AF%94%E8%BE%83%E5%9B%BE%EF%BC%9A%E8%A1%A8%E8%BE%BE%E5%9C%BA%E6%99%AF.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/%E6%AF%94%E8%BE%83%E5%9B%BE%EF%BC%9A%E5%BF%83%E6%B5%81.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/%E6%AF%94%E8%BE%83%E5%9B%BE%EF%BC%9A%E5%B7%A5%E4%BD%9C%E9%80%89%E6%8B%A9.png">
+<meta property="article:published_time" content="2023-12-27T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-01-09T18:50:20.272Z">
 <meta property="article:author" content="垒玹">
-<meta property="article:tag" content="迭代">
+<meta property="article:tag" content="表达">
+<meta property="article:tag" content="心流">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/%E8%99%9A%E5%81%87%E7%9A%84%E6%B5%81%E7%A8%8B%E5%9B%BE.png">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/%E6%AF%94%E8%BE%83%E5%9B%BE.png">
 
-<link rel="canonical" href="https://ooheroism.github.io/2024/01/04/%E5%9B%BE%E5%BD%A2%E6%80%9D%E8%80%83/%E6%B5%81%E7%A8%8B%E5%9B%BE/">
+<link rel="canonical" href="https://ooheroism.github.io/2023/12/28/%E5%9B%BE%E5%BD%A2%E6%80%9D%E8%80%83/%E6%AF%94%E8%BE%83%E5%9B%BE/">
 
 
 <script id="page-configurations">
@@ -49,7 +52,7 @@
   };
 </script>
 
-  <title>流程图：做烂一个公众号的秘诀是什么？ | Ooheroism</title>
+  <title>比较图：在北京，身边的朋友都陆续离开了，而我为什么选择继续留在这里？ | Ooheroism</title>
   
 
 
@@ -200,7 +203,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://ooheroism.github.io/2024/01/04/%E5%9B%BE%E5%BD%A2%E6%80%9D%E8%80%83/%E6%B5%81%E7%A8%8B%E5%9B%BE/">
+    <link itemprop="mainEntityOfPage" href="https://ooheroism.github.io/2023/12/28/%E5%9B%BE%E5%BD%A2%E6%80%9D%E8%80%83/%E6%AF%94%E8%BE%83%E5%9B%BE/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/myLogo.png">
@@ -213,7 +216,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          流程图：做烂一个公众号的秘诀是什么？
+          比较图：在北京，身边的朋友都陆续离开了，而我为什么选择继续留在这里？
         </h1>
 
         <div class="post-meta">
@@ -223,14 +226,14 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2024-01-04 00:56:18" itemprop="dateCreated datePublished" datetime="2024-01-04T00:56:18+08:00">2024-01-04</time>
+              <time title="创建时间：2023-12-28 00:00:00" itemprop="dateCreated datePublished" datetime="2023-12-28T00:00:00+08:00">2023-12-28</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-01-10 01:24:13" itemprop="dateModified" datetime="2024-01-10T01:24:13+08:00">2024-01-10</time>
+                <time title="修改时间：2024-01-10 02:50:20" itemprop="dateModified" datetime="2024-01-10T02:50:20+08:00">2024-01-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -255,7 +258,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.5k</span>
+              <span>1.6k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -274,17 +277,70 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="1-写这篇文章前，我的心理活动"><a href="#1-写这篇文章前，我的心理活动" class="headerlink" title="1 写这篇文章前，我的心理活动"></a>1 写这篇文章前，我的心理活动</h1><p>记得，第一次在朋友圈宣发公号，阅读量40+。<br>本以为我的公号终于开始起步了，结果第二天就仅有18的阅读量。<br>这还不算什么，更要命的是我发现，我朋友圈宣发文案的点赞量，竟然比我的文章还要多。哈哈哈。<br>嗯，危险。朋友们，你们说说，该怎么办？</p>
-<p>我想要不就硬着头皮做呗，不就刚开始下降吗？有起有落很正常的。<br>但稍作理智就觉得，不不不，那不行。<br>据我以往的经验，硬着头皮也可能只会让你头皮发麻。<br>有起有落也可能是，起落落落落落……<br>所以，还是得找到原因才行。</p>
-<p>我想，好吧，那就先停更几天，好好找找原因再做吧。<br>但稍加审慎就觉得，不不不，那更不行。<br>你已经预告了下一篇的文章主题——流程图。<br>并且你宣发的第一篇的题目，它好死不死。<br>它竟然叫“为什么我要持续地做内容创作？”哈哈哈，持续！朋友们。<br>你想找找原因？你看看你最近发的这两篇文章。<br>它一篇叫做深究问题的本质原因，另一篇叫做拓宽解决问题的思路。<br>你自己介绍的方法，总不能都解决不了你自己的问题吧？<br>哈哈哈，你说说吧，绝不绝？</p>
-<p>既要找到原因，又得继续发文，还得做预告中流程图的内容。<br>嗯，这是不小的挑战。我试试看。</p>
-<h1 id="2-虚假的流程图"><a href="#2-虚假的流程图" class="headerlink" title="2 虚假的流程图"></a>2 虚假的流程图</h1><img src="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/虚假的流程图.png" width="50%" height="50%" style="margin: 0 auto;"/>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言^"></a>前言^</h1><ul>
+<li>前些天在另一个平台看有人发的动态说，“在北京的身边的朋友都陆续离开了，而我为什么选择继续留在这里”？他的理由是：“假如我离开北京了，我的孩子也还会再来”！我略微感到了一丝悲壮的气氛。我在想呀，“假如是我，我会怎么选择？理由又是什么”？这是我写这篇文章的动机。</li>
+<li>昨天我发了《图形思考系列》的第一篇——交换图，今天的主题是<strong>比较图</strong>，我会先介绍下比较图的使用，然后用两个小案例练习一下比较图的使用，最后用比较图讨论开篇的话题。</li>
+</ul>
+<h1 id="1-比较图介绍"><a href="#1-比较图介绍" class="headerlink" title="1 比较图介绍"></a>1 比较图介绍</h1><img src="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/比较图.png" width="50%" height="50%" style="margin: 0 auto;"/>
 
-<p>大家请看上面的流程图，请问这是写一篇文章的流程吗？先写标题，再写前言，然后正文，结尾，大功告成。是这样的吗？<br>貌似没有问题，想想我们学生时代的命题作文，可不就得这么写吗？<br>不对，假如你用这个流程来写公号的文章，你会发现你完全废了。<br>为什么？首先，考试时的命题作文是有明确截止时间的，一般30分钟左右，你是被deadline驱动着写完的文章的。但写公号文章，是没有硬性的deadline的，按这个步骤写文章，一定是拖拖拉拉的，那就很容易就废了。<br>到这里，我们有必有强调流程图的特点——递进关系，没有上一步，就无从谈起下一步。嗯？你可能会说这有什么好强调的？大家都知道的嘛。<br>不，正如上篇预告中说的，正因为它被默认为是常识，所以才容易被忽视。下面我们看看，什么是真正的流程图，真正写公号文章的流程图。</p>
-<h1 id="3-真实的流程图"><a href="#3-真实的流程图" class="headerlink" title="3 真实的流程图"></a>3 真实的流程图</h1><img src="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/真实的流程图.png" width="50%" height="50%" style="margin: 0 auto;"/>
+<ul>
+<li>步骤：<ol>
+<li>确定纵轴</li>
+<li>确定横轴</li>
+<li>画出比较对象</li>
+</ol>
+</li>
+<li>要点：<ol>
+<li>画纵轴时要把较受重视的要素放在上面</li>
+<li>画横轴时要把较受重视的要素放在右边</li>
+<li>大胆比较定性项目，展现主观想法</li>
+</ol>
+</li>
+<li>必胜小技巧：<ul>
+<li>把最重视的要素放在纵轴上</li>
+</ul>
+</li>
+<li>友情提示：<ul>
+<li>以下3个案例你可以挑选其中一个来理解就足够，希望下次等你需要做选择的情况时，可化为己用。</li>
+</ul>
+</li>
+</ul>
+<h1 id="2-案例：表达场景"><a href="#2-案例：表达场景" class="headerlink" title="2 案例：表达场景"></a>2 案例：表达场景</h1><p>印象中我第一次接触比较图是在黄执中学长《好好说话》中对表达场景的分析：不同的场景说话的目的就不同，他是试图通过<strong>人数多少</strong>与<strong>场合正式与否</strong>两个维度，即两个坐标轴，分析在特定场景下说话时要重点关注什么。<br><img src="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/比较图：表达场景.png" width="50%" height="50%" style="margin: 0 auto;"/></p>
+<h2 id="2-1-坐标轴解释"><a href="#2-1-坐标轴解释" class="headerlink" title="2.1 坐标轴解释"></a>2.1 坐标轴解释</h2><ul>
+<li><strong>正式</strong>：意味着听众的目的性高，得交付干货</li>
+<li><strong>非正式</strong>：意味着听众的目的性低，得能够吸引住对方的注意力</li>
+<li><strong>人多</strong>：意味着表达者得给人权威感，重在影响听众</li>
+<li><strong>人少</strong>：意味着表达者得给人亲密感，重在与听众分享</li>
+</ul>
+<h2 id="2-2-不同场景的表达目的分析"><a href="#2-2-不同场景的表达目的分析" class="headerlink" title="2.2 不同场景的表达目的分析"></a>2.2 不同场景的表达目的分析</h2><ul>
+<li><strong>舞台</strong>：非正式、人多，如脱口秀剧场，段子要好笑，这样才能吸引住观众的注意力（权威感、注意力）</li>
+<li><strong>讲台</strong>：正式、人多，如学术报告，内容要有新颖有干货，这样听众才觉得有收获没白来（权威感、交付感）</li>
+<li><strong>餐桌</strong>：非正式、人少，如好友聚会，聊聊八卦大家才更其乐融融（亲密感、注意力）</li>
+<li><strong>办公桌</strong>：正式、人少，如公司小组会议，发表有用的见解容易获得团队认可（亲密感、交付感）</li>
+</ul>
+<h1 id="3-案例：帮你调整学习状态——心流"><a href="#3-案例：帮你调整学习状态——心流" class="headerlink" title="3 案例：帮你调整学习状态——心流"></a>3 案例：帮你调整学习状态——心流</h1><p>这是我印象中第二次看到比较图，“心流”是积极心理学中概念，它是一种你感到极其专注又充实的状态，有个成语描述得类似于这种状态——废寝忘食。</p>
+<ul>
+<li><strong>新手</strong>：当你刚入门新领域时，因为你的级别很低，攻克一个技能级别会很容易。</li>
+<li><strong>厌烦</strong>：随着技巧级别的提升，完成低级别的任务便失去了挑战性，重复完成这些任务就会变得令人厌烦。</li>
+<li><strong>焦虑</strong>：假如你一开始就给自己很高于自己能力的挑战，那你很容易感到沮丧。</li>
+<li><strong>专家</strong>：如果你在厌烦的时间点时，主动寻求新的挑战；在沮丧、焦虑时，尝试降低挑战与期待；总之始终让自己适当的挑战状态，即心流渠道，那假以时日自然会成长为该领域的专家。<img src="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/比较图：心流.png" width="50%" height="50%" style="margin: 0 auto;"/></li>
+</ul>
+<h1 id="4-案例：工作选择"><a href="#4-案例：工作选择" class="headerlink" title="4 案例：工作选择"></a>4 案例：工作选择</h1><img src="https://cdn.jsdelivr.net/gh/Ooheroism/Images@master/blogs/比较图：工作选择.png" width="50%" height="50%" style="margin: 0 auto;"/>
 
-<p>这个图是什么意思？没有上一步就没有下一步，除此之外，还得是我可以停在任意一步。换句话说，就是完成大于完美。用专业一点的名词表达就是——迭代。<br>好了，了解了真实流程图的的原委，我们试着把它应用到写公号文章中。<br>如果写文章只有一个步骤，那会是什么？如果大家看过我第三篇文章《为什么我要持续地内容创作》，就可能对此有影响，动机&gt;知识&gt;能力。<br>什么意思？就是如果只有一个步骤，那就是想想为什么我必须要说两句，也就是动机。在这个过程中，你是不会考虑读者是否喜欢，平台是否推送等等。只有一个想法，就是我必须要说出来，不说出来我难受。哎，有这个感觉就对了。<br>那如果只有两个步骤，那第二个步骤是什么？如果大家看过我第四篇文章《跟女朋友陷入冷战，该怎么办》，就可能有会有影响，是文章对大家有启发、大家喜欢也是我的创作动机。<br>那具体怎么操作呢？就是增强文章的可读性，我这篇实验的方法是，在文章中设置一些问答，增强文章的对话感。而不是像以往一样平铺直叙。<br>那下边是一个投票，希望大家给我反馈，到底有没有像我设想的那样，是更有可读性，还是更啰嗦了？</p>
-<h1 id="4-结语"><a href="#4-结语" class="headerlink" title="4 结语"></a>4 结语</h1><p>好了，做烂一个公号的秘诀——虚假的流程图。相对应地，做好一个公号的秘诀，即我们今天谈的流程图精髓，也是容易被大家忽视的，即我可以停在任意一步。它是一个迭代的过程。<br>本来这篇想说说拖延症的，但限于篇幅，就等有机会再说吧。我们下一篇的主题是树状图，它有一个更高大上的名字——思维导图。又看起来很熟悉是吧？哈哈。等我给你们惊喜，我们下一篇见。</p>
+<ul>
+<li><strong>行业</strong>：<ul>
+<li>新兴行业相比传统行业的优势在于，在业内不是有一帮中年人所主导的，年轻人相对更容易出头。比如新媒体行业：李子柒、滇西小哥、美食作家王刚等很多年轻人。</li>
+<li>这个观念正好与我小时候，大人们口中的吃香行业（教师、公务员、医生）相反。这也很好理解，因为之前是增量时期，现在是存量时期。</li>
+</ul>
+</li>
+<li><strong>城市</strong>：<ul>
+<li>经济学教授薛兆丰有一个观点我印象很深，他讲，年轻人要到大城市去，因为市场经济越发达的地方，歧视就会相对较低。因为市场竞争会让企业在招人的时候尽可能关注在能力因素，而非其他的。</li>
+<li>说到这个我想起前几天平安夜时，一个卖苹果的在群里说，“今天平安夜，我这里苹果数量有限，大家先到先得”。然后有人就说，“今天是纪念英烈的日子，不过平安夜”！最后卖苹果的回复绝了，说：“我这也有纪念英烈的苹果，数量有限，大家先到先得”。</li>
+<li>你看，市场从来不会区别对待不同观念的人，只看中你的能力，很经典的案例。<br>说到这个我想起前几天平安夜时，一个卖苹果的在群里说，“今天平安夜，我这里苹果数量有限，大家先到先得”。然后有人就说，“今天是纪念英烈的日子，不过平安夜”！最后卖苹果的回复绝了，说：“我这也有纪念英烈的苹果，数量有限，大家先到先得”。图片你看，市场从来不会区别对待不同观念的人，只看中你的能力，很经典的案例。</li>
+</ul>
+</li>
+</ul>
+<h1 id="5-结语"><a href="#5-结语" class="headerlink" title="5 结语"></a>5 结语</h1><p>这是我在公众号的第二篇文章在讲比较图，下一篇会讲深挖图，其中我会具体讲讲我一定要持续写作的原因。我们下一篇再见。</p>
 
     </div>
 
@@ -315,7 +371,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://ooheroism.github.io/2024/01/04/%E5%9B%BE%E5%BD%A2%E6%80%9D%E8%80%83/%E6%B5%81%E7%A8%8B%E5%9B%BE/" title="流程图：做烂一个公众号的秘诀是什么？">https://ooheroism.github.io/2024/01/04/图形思考/流程图/</a>
+    <a href="https://ooheroism.github.io/2023/12/28/%E5%9B%BE%E5%BD%A2%E6%80%9D%E8%80%83/%E6%AF%94%E8%BE%83%E5%9B%BE/" title="比较图：在北京，身边的朋友都陆续离开了，而我为什么选择继续留在这里？">https://ooheroism.github.io/2023/12/28/图形思考/比较图/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -326,7 +382,8 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E8%BF%AD%E4%BB%A3/" rel="tag"># 迭代</a>
+              <a href="/tags/%E8%A1%A8%E8%BE%BE/" rel="tag"># 表达</a>
+              <a href="/tags/%E5%BF%83%E6%B5%81/" rel="tag"># 心流</a>
           </div>
 
         
@@ -335,12 +392,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2023/12/31/%E5%9B%BE%E5%BD%A2%E6%80%9D%E8%80%83/%E4%BA%A4%E6%8D%A2%E5%9B%BE/" rel="prev" title="交换图：如何向非本行业的朋友，三言两语讲清楚自己的工作价值？">
+    <a href="/2023/12/27/%E5%9B%BE%E5%BD%A2%E6%80%9D%E8%80%83/%E4%BA%A4%E6%8D%A2%E5%9B%BE/" rel="prev" title="交换图：如何向非本行业的朋友，三言两语讲清楚自己的工作价值？">
       <i class="fa fa-chevron-left"></i> 交换图：如何向非本行业的朋友，三言两语讲清楚自己的工作价值？
     </a></div>
       <div class="post-nav-item">
-    <a href="/2024/01/05/others/PARA/" rel="next" title="我是如何写完一篇公众号文章的？">
-      我是如何写完一篇公众号文章的？ <i class="fa fa-chevron-right"></i>
+    <a href="/2023/12/29/%E5%9B%BE%E5%BD%A2%E6%80%9D%E8%80%83/%E6%B7%B1%E6%8C%96%E5%9B%BE1/" rel="next" title="深挖图：为什么我要持续的做内容创作？">
+      深挖图：为什么我要持续的做内容创作？ <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -400,7 +457,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-%E5%86%99%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%E5%89%8D%EF%BC%8C%E6%88%91%E7%9A%84%E5%BF%83%E7%90%86%E6%B4%BB%E5%8A%A8"><span class="nav-text">1 写这篇文章前，我的心理活动</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-%E8%99%9A%E5%81%87%E7%9A%84%E6%B5%81%E7%A8%8B%E5%9B%BE"><span class="nav-text">2 虚假的流程图</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-%E7%9C%9F%E5%AE%9E%E7%9A%84%E6%B5%81%E7%A8%8B%E5%9B%BE"><span class="nav-text">3 真实的流程图</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-%E7%BB%93%E8%AF%AD"><span class="nav-text">4 结语</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">前言^</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1-%E6%AF%94%E8%BE%83%E5%9B%BE%E4%BB%8B%E7%BB%8D"><span class="nav-text">1 比较图介绍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-%E6%A1%88%E4%BE%8B%EF%BC%9A%E8%A1%A8%E8%BE%BE%E5%9C%BA%E6%99%AF"><span class="nav-text">2 案例：表达场景</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-%E5%9D%90%E6%A0%87%E8%BD%B4%E8%A7%A3%E9%87%8A"><span class="nav-text">2.1 坐标轴解释</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-%E4%B8%8D%E5%90%8C%E5%9C%BA%E6%99%AF%E7%9A%84%E8%A1%A8%E8%BE%BE%E7%9B%AE%E7%9A%84%E5%88%86%E6%9E%90"><span class="nav-text">2.2 不同场景的表达目的分析</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-%E6%A1%88%E4%BE%8B%EF%BC%9A%E5%B8%AE%E4%BD%A0%E8%B0%83%E6%95%B4%E5%AD%A6%E4%B9%A0%E7%8A%B6%E6%80%81%E2%80%94%E2%80%94%E5%BF%83%E6%B5%81"><span class="nav-text">3 案例：帮你调整学习状态——心流</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-%E6%A1%88%E4%BE%8B%EF%BC%9A%E5%B7%A5%E4%BD%9C%E9%80%89%E6%8B%A9"><span class="nav-text">4 案例：工作选择</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-%E7%BB%93%E8%AF%AD"><span class="nav-text">5 结语</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -416,14 +473,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -491,7 +548,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">17 分钟</span>
+    <span title="站点阅读时长">18 分钟</span>
 </div>
   <div class="powered-by">
     <!--由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动 -->
